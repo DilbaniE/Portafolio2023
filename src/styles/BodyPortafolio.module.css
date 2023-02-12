@@ -1,0 +1,143 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --colorPrincipal: #090E16;
+    --colorSecundario: #282C33;
+    --colorTerciario: #FFFFFF;
+    --colorMoradoPrimario: #4E3E70;
+    --colorMoradoSecundario: #C778DD;
+    --typografiaPrincipal: 'Inter', sans-serif;
+    --typografiaSecundaria: 'Fira Code', monospace;
+  }
+
+.a{
+    border: solid red 2px;
+}
+.megaPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.contenedorPrincipal{
+    background-color: var(--colorPrincipal);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contenedorHorizontal{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorVertical{
+    display: flex;
+    flex-direction: column;    
+}
+.espaciadorBettween{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorHorizontal2{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorVertical2{
+    display: block;
+}
+.iconoDown{
+    width: 50px;
+    margin-left: 6%;
+    margin-bottom: 25px;
+}
+
+
+
+
+.espaciadorBettween img:nth-child(2n){
+    visibility: hidden;
+}
+
+.textoPrincipal{
+    font-family: var(--typografiaPrincipal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 92.8px;
+    color: var(--colorTerciario);
+}
+
+.contenedorFront{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.textoFront{
+    color: var(--colorTerciario);
+    font-family: var(--typografiaSecundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.4px;
+    line-height: 40px;
+    margin-left: 4%;
+    align-items: center;
+    margin: auto;
+    margin-left: 15px;
+
+}
+
+.contenedorBotones{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.btn_contact{
+
+    width: 298.79px;
+    height: 75.4px;
+    left: 206px;
+    top: 738px;
+    color: var(--colorTerciario);
+    background: var(--colorMoradoPrimario);
+    border-radius: 2px;
+    font-family: var(--typografiaSecundaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.6px;
+    line-height: 34.4px;
+    margin-right: 30px;
+}
+.btn_download{
+    width: 318px;
+    height: 75.4px;
+    left: 537px;
+    top: 738px;
+    background-color: var(--colorPrincipal);
+    border: 2.0247px solid var(--colorMoradoSecundario);
+    border-radius: 2px;
+    font-family: var(--typografiaSecundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.6px;
+    line-height: 43px;
+    color: var(--colorTerciario);
+
+}
+
+.btn_download2{
+    margin-left: 10px;
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --colorPrincipal: #090E16;
+    --colorSecundario: #282C33;
+    --colorTerciario: #FFFFFF;
+    --colorMoradoPrimario: #4E3E70;
+    --colorMoradoSecundario: #C778DD;
+    --typografiaPrincipal: 'Inter', sans-serif;
+    --typografiaSecundaria: 'Fira Code', monospace;
+  }
+
+.a{
+    border: solid red 2px;
+}
+.principal{
+
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--colorPrincipal);
+    flex-direction: column;
+}
+
+.contenedorIconos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.iconoSuperior{
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+.iconoInferior{
+    width: 280px;
+}

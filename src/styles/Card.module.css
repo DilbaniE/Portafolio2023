@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --colorPrincipal: #090E16;
+    --colorSecundario: #282C33;
+    --colorTerciario: #FFFFFF;
+    --colorMoradoPrimario: #4E3E70;
+    --colorMoradoSecundario: #C778DD;
+    --typografiaPrincipal: 'Inter', sans-serif;
+    --typografiaSecundaria: 'Fira Code', monospace;
+  }
+
+.a{
+    border: solid red 2px;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 317px;
+    height: 224px;
+    left: 194px;
+    top: 246px;
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+
+}
